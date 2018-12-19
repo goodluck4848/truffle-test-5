@@ -16,7 +16,7 @@ contract HelloEthSalon {
 
 
 
-  function GetMessage() returns () {
+  function GetMessage() returns (string) {
 
     return message;
 
